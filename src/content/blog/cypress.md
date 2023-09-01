@@ -2,7 +2,7 @@
 title: 'Cypress'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Sep 01 2023'
-heroImage: '/blog-placeholder-5.jpg'
+heroImage: '/cypress.png'
 ---
 
 ## Einleitung

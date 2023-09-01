@@ -1,0 +1,30 @@
+---
+interface Props {
+    text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<div class="container">
+    <div class="text">
+        {text}
+    </div>
+</div>
+
+
+<style>
+    .container {
+        display: inline-flex;
+        background-color: #C9E9E6;
+        border-radius: 7.5%;
+        margin-inline: 1%;
+        margin-bottom: 1%;
+    }
+
+    .text {
+        color: #575757;
+        padding: 10px;
+    }
+
+</style>

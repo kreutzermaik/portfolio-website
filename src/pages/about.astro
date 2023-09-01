@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import JobExperience from "../components/About/JobExperience.astro";
+import Education from "../components/About/Education.astro";
+import Skills from "../components/About/Skills.astro";
+---
+
+<Layout
+	title="Über mich"
+	description="Auf dieser Seite erfährst du mehr über mich und meine bisherigen Erfahrungen."
+	pubDate={new Date('Sep 01 2023')}
+	heroImage="/Bewerbungsfoto.jpg"
+>
+	<p>
+		Mein Name ist Maik Kreutzer und ich bin 24 Jahre alt. In meiner Freizeit gehe ich gerne Bouldern oder Klettern
+		und spiele auch gerne Basketball. Zurzeit studiere ich Medieninformatik im Master am Umwelt-Campus in Birkenfeld
+		und befinde mich in der Abschlussphase.
+		Während meines Studiums konnte ich bereits viele Erfahrungen im Bereich
+		der Softwareentwicklung mit Java und insbesondere der Webentwicklung
+		mit Angular und React sammeln. Größtenteils war ich in meiner Zeit als
+		Werkstudent bie der Fresenius Medical Care als Fullstack-Entwickler tätig und habe somit neben der Front- und
+		Backend-Entwicklung auch Kenntnisse im SQL-, Devops- und Testing-Bereich
+		sammeln können. Während ich für meine Bachelorarbeit ein Konzept für
+		die automatisierte Messung der Ressourceneffizienz von Software entwickelt
+		habe, geht es in meiner Masterarbeit mehr um Design, Frontend-Entwicklung
+		und den Performance-Vergleich von Meta-Frameworks. Auf Basis des Konzepts
+		meiner Bachelorarbeit werden so anhand einer Echtzeit-Applikation bestimmte
+		Performance-Werte der drei Frameworks Solid.js, React, und Svelte gemessen.
+	</p>
+
+	<JobExperience />
+	<br>
+	<Education />
+	<br>
+	<Skills />
+</Layout>

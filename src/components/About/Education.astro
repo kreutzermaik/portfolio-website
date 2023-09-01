@@ -1,0 +1,73 @@
+<h2>Bildungsweg</h2>
+
+<div class="container">
+    <div class="col-1">
+        <div class="text-black">02/2024</div>
+        <div class="text-gray">Hochschule Trier</div>
+        <div class="text-gray">Medieninformatik</div>
+    </div>
+    <div class="col-2">
+        <strong>Master of Science</strong>
+        <div class="text-gray">Hoppstädten-Weiersbach - Fokus auf Usability und Frontend-Entwicklung,
+            Thema der Masterarbeit: Ein Performance-Vergleich verschiedener
+            JavaScript-Meta-Frameworks im Kontext einer Echtzeit-Applikation <br>
+            Voraussichtliche Abschlussnote 1.6
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-1">
+        <div class="text-black">04/2022</div>
+        <div class="text-gray">Hochschule Trier</div>
+        <div class="text-gray">Medieninformatik</div>
+    </div>
+    <div class="col-2">
+        <strong>Bachelor of Science</strong>
+        <div class="text-gray">Hoppstädten-Weiersbach - Thema der Bachelorarbeit Automatisierung von
+            Messverfahren zur Bestimmung der Ressourceneffizienz von Software mittels
+            Continuous Integration <br> Abschlussnote: 2.3</div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-1">
+        <div class="text-black">06/2017</div>
+        <div class="text-gray">Gymnasium Wendalinum</div>
+    </div>
+    <div class="col-2">
+        <strong>Allgemeine Hochschulreife / Abitur</strong>
+        <div class="text-gray">Sankt Wendel - Abitur in den beiden Hauptfächern Deutsch und Englisch</div>
+    </div>
+</div>
+
+<style>
+    .container {
+        display: grid;
+        grid-gap: 5%;
+        margin: 1em 0;
+    }
+
+    .col-1 {
+        grid-column: 1 / 1;
+        grid-row: row ;
+        width: 14vw;
+    }
+    .col-2 {
+        grid-column: 3 / 4;
+        grid-row: row ;
+    }
+    .text-black {
+        color: #000;
+    }
+    .text-gray {
+        color: #727171;
+    }
+    @media (max-width: 720px) {
+        .container {
+            display: block;
+            margin-bottom: 2em;
+        }
+        .col-1 {
+            width: 100%;
+        }
+    }
+</style>

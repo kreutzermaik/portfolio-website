@@ -1,7 +1,7 @@
 ---
 title: 'Cypress'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Sep 01 2023'
+description: 'Eine Einführung in Cypress'
+pubDate: 'Jun 22 2023'
 heroImage: '/cypress.png'
 ---
 
@@ -13,7 +13,6 @@ heroImage: '/cypress.png'
 - Component Tests
 - Unit Tests
 - Integration Tests
-- Visual Regression Tests (?)
 
 ### Struktur
 
@@ -56,8 +55,8 @@ Im root-Verzeichnis muss die Datei `proxy.conf.json` erstellt werden:
 
 ```json
 {
-   "/efficlient_backend/*": {
-       "target": "<https://samdev01>",
+   "/<nginx-pfad>/*": {
+       "target": "<server-url>",
        "secure": false,
        "changeOrigin": false
    }
@@ -65,7 +64,7 @@ Im root-Verzeichnis muss die Datei `proxy.conf.json` erstellt werden:
 
 ```
 
-`/efficlient_backend/` ist dabei der Pfad zum Backend und im `target` steht die URL.
+`/<nginx-pfad>/` ist dabei der Pfad zum Backend und im `target` steht die URL.
 Anschließend muss der `start` Befehl in der package.json erweitert werden:
 
 ```json
@@ -73,9 +72,9 @@ Anschließend muss der `start` Befehl in der package.json erweitert werden:
 
 ```
 
-Im Http-Service kann nun ganz einfach über die URL `/efficlient_backend/` auf das Backend zugegriffen werden, **ohne** die Angabe von `https://samdev01`.
+Im Http-Service kann nun ganz einfach über die URL `/<nginx-pfad>/` auf das Backend zugegriffen werden, **ohne** die Angabe von `<server-url>`.
 
-## Continuous Integration
+## Continuous Integration (GitLab)
 
 - Voraussetzung: Proxy-Einstellungen
 - Die `package.json` muss angepasst werden:

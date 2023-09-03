@@ -42,7 +42,7 @@ heroImage: '/stuckateur-kreutzer.png'
 
 ## 📈 Performance Score
 Mit dem Tool Lighthouse von Google wurde die Performance der Webseite gemessen: 
-<img src="/lighthouse-score.png" style="margin-top: 20px;">
+<img src="/lighthouse-score.png" alt="Lighthouse Score" style="margin-top: 20px;">
 
 <br />
 

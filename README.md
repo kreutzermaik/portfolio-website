@@ -1,68 +1,43 @@
-# Astro Starter Kit: Blog
+# Persönliche Webseite für Maik Kreutzer
 
-```
-npm create astro@latest -- --template blog
-```
+> 🌐 Webseite: [https://maik-kreutzer.netlify.app/](https://maik-kreutzer.netlify.app/)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+> 👷‍♀️In dieser README wird die Architektur des Projektes erklärt
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 💻 Tech Stack
+- Die Basis bildet das Web-Framework [Astro](https://astro.build/)
+- Die Komponenten werden entsprechend mit JavaScript und HTML umgesetzt
+- Die Styles werden mit CSS geschrieben
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+## 🗂️ Übersicht über die Komponenten
+- Die Komponenten befinden sich im Ordner `./src/components/`
+- Diese werden in der Datei `./src/pages/index.astro` eingebunden
+- Die zwei Layout-Wrapper für die Projekte und Blogs liegen in `./src/layouts/`
+- Die entsprechenden Inhalte liegen in `./src/content/`
+- Verwendete Icons werden als SVG-Tags im Ordner `./src/components/icons/` abgelegt
 
-Features:
+## ⌘ Commands
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+| Command                   | Action                                             |
+| :------------------------ |:---------------------------------------------------|
+| `npm install`             | Abhängigkeiten installieren                        |
+| `npm run dev`             | Startet lokalen Server `localhost:3000`            |
+| `npm run build`           | Bauprozess für die Produktion zum Ordner `./dist/` |
+| `npm run preview`         | Vorschau der gebauten App vor Deploy               |
 
-## 🚀 Project Structure
+## 🚀 Deployment
+- Die Webseite wird mit dem Tool [Netlify](https://www.netlify.com/) deployed
+- Das GitHub-Repository der Webseite ist mit einem Netlify-Konto verknüpft
+- Wird ein neuer Commit auf den `master`-Branch gepusht, wird die Webseite automatisch neu gebaut und deployed
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📈 Performance Score
+Mit dem Tool Lighthouse von Google wurde die Performance der Webseite gemessen:
 
-```
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+<img src="./public/lighthouse-score-portolio.png" alt="Lighthouse Score" />
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 📝 License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+## 📧 Kontakt
+- [GitHub](https://github.com/kreutzermaik)
+- [LinkedIn](https://linkedin.com/in/maik-kreutzer-889a79197)

@@ -11,7 +11,7 @@ const projects = (await getCollection('project'));
                 <li>
                     <a href={`/project/${post.slug}/`}>
                         <img width={720} height={360} src={post.data.heroImage} alt=""/>
-                        <h4 class="title">{post.data.title}</h4>
+                        <h2 class="title">{post.data.title}</h2>
                         <p class="description">
                             {post.data.description}
                         </p>
@@ -68,6 +68,10 @@ const projects = (await getCollection('project'));
 
     ul a:hover img {
         box-shadow: var(--box-shadow);
+    }
+
+    h2 {
+        font-size: 1.563em;
     }
 
     @media (max-width: 720px) {

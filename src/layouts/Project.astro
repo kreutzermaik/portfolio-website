@@ -45,6 +45,11 @@ const { title, description, heroImage } = Astro.props;
 			.title h1 {
 				margin: 0 0 0.5em 0;
 			}
+			@media (max-width: 500px) {
+				h1 {
+					font-size: 2em;
+				}
+			}
 		</style>
 	</head>
 

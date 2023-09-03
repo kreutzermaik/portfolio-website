@@ -14,7 +14,7 @@ import Projects from "../components/Projects.astro";
 <body>
 <Header title={SITE_TITLE}/>
 <main>
-    <h1>🛠️ Meine Projekte</h1>
+    <h1><span id="project-icon">🛠️</span> Meine Projekte</h1>
     <p>
         Herzlich Willkommen auf meiner persönlichen Webseite. Sie finden hier eine Übersicht über aktuelle Projekte.
     </p>
@@ -30,6 +30,11 @@ import Projects from "../components/Projects.astro";
     }
     main h1, p {
         text-align: center;
+    }
+    @media(max-width: 500px) {
+        #project-icon {
+            display: none;
+        }
     }
 </style>
 </html>

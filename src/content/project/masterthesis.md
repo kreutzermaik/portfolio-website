@@ -4,7 +4,6 @@ description: 'Ein Performance-Vergleich verschiedener JavaScript Meta-Frameworks
 heroImage: '/masterthesis.png'
 ---
 
-<p style="text-align:justify">
 Die zunehmende Verwendung von JavaScript in Anwendungen hat dazu geführt, dass in
 den letzten zehn Jahren einige Bibliotheken und Frameworks veröffentlicht wurden. Im Laufe
 dieses Zeitraums haben sich auch die Eigenschaften solcher Softwarepakete entsprechend
@@ -17,18 +16,14 @@ Funktionen. Mittlerweile gibt es ein solches Meta-Framework für alle bekannten 
 oder Frameworks. React hat NextJs, VueJs hat NuxtJs, Angular hat NestJs, um die drei
 Größten zu nennen. Das Problem dabei ist, dass diese Meta-Frameworks im Gesamten erst
 wenig untersucht wurden und so ein Vergleich untereinander nur sehr schwierig möglich ist.
-</p>
 
-<p style="text-align:justify">
 Im Kontext von Energiesparmaßnahmen sowie allgemeiner Benutzerzufriedenheit wird
 Software in Hinsicht auf ihre Performance und weitere Gesichtspunkte zunehmend häufiger
 untersucht. Es gibt demnach auch mehrere Studien, die einen Vergleich von
 Frontend-Frameworks untereinander ziehen. Im Bereich der Meta-Frameworks gibt es
 aktuell allerdings relativ wenig Ergebnisse, was unter anderem daran liegt, dass viele
 Softwarepakete erst vor zwei Jahren veröffentlicht wurden.
-</p>
 
-<p style="text-align:justify">
 Für diese Masterabeit sollen insgesamt die drei Meta-Frameworks für React, SolidJs und Svelte getestet werden,
 sprich NextJs, SolidStart und SvelteKit. Als Basis für die Entwicklung dient eine
 Echtzeit-Anwendung, die für die späteren Messungen eine hohe Last erzeugen soll. Dabei
@@ -42,5 +37,34 @@ Anforderungen bestimmt werden. Anschließend wird mit Hilfe von Mockups das komp
 Design der Anwendung festgelegt. Daraufhin muss die App in den drei genannten
 Frameworks bzw. Meta-Frameworks implementiert werden. Im letzten Schritt erfolgt eine
 Performance-Messung für jede App, sodass die Werte der Frameworks und wie diese
-abschneiden miteinander verglichen werden können.</p>
+abschneiden miteinander verglichen werden können.
 
+## Planung und Design
+
+<br />
+
+### Features
+- Kalenderübersicht
+- Wochenplaner
+- Fortschritt
+- Bestenliste
+- Profil
+- Authentifizierung mit Email und Passwort
+
+
+### Mockups
+Für die bessere Planung wurde für jede der Hauptansichten jeweils ein Mockups erstellt.
+Die Designs wurden mit Hilfe der Grafikdesign-Plattform [Canva](https://canva.com/) erstellt.
+
+<div style="text-align:center;display:flex;justify-content:space-between">
+    <img src="/projects/mockup-1.png" alt="Mockup 1 - Dashboard" width="250">
+    <img src="/projects/mockup-2.png" alt="Mockup 2 - Planer" width="250">
+    <img src="/projects/mockup-3.png" alt="Mockup 3 - Fortschritt" width="250">
+    <img src="/projects/mockup-4.png" alt="Mockup 4 - Bestenliste" width="250">
+</div>
+
+<style>
+    p {
+        text-align: justify;
+    }
+</style>

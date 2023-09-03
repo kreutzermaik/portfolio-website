@@ -2,24 +2,35 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import {SITE_TITLE, SITE_DESCRIPTION} from '../consts';
+import Projects from "../components/Projects.astro";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1>🛠️ Meine Projekte</h1>
-			<p>
-				Herzlich Willkommen auf meiner persönlichen Webseite. Sie finden hier eine Übersicht über aktuelle Projekte.
-			</p>
-			<p>Hier sehen Sie, wie man auf einer HTML-Seite Code einbaut.</p>
-			<code>npm install</code>
-		</main>
-		<Footer />
-	</body>
+<head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+</head>
+<body>
+<Header title={SITE_TITLE}/>
+<main>
+    <h1>🛠️ Meine Projekte</h1>
+    <p>
+        Herzlich Willkommen auf meiner persönlichen Webseite. Sie finden hier eine Übersicht über aktuelle Projekte.
+    </p>
+
+    <Projects />
+
+</main>
+<Footer/>
+</body>
+<style>
+    main {
+        width: 1280px;
+    }
+    main h1, p {
+        text-align: center;
+    }
+</style>
 </html>
+

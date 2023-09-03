@@ -91,7 +91,7 @@ const posts = (await getCollection('blog')).sort(
 			<section>
 				<ul>
 					{
-						posts.map((post) => (
+						posts.map((post) =>
 							<li>
 								<a href={`/blog/${post.slug}/`}>
 									<img width={720} height={360} src={post.data.heroImage} alt="" />
@@ -101,7 +101,7 @@ const posts = (await getCollection('blog')).sort(
 									</p>
 								</a>
 							</li>
-						))
+						)
 					}
 				</ul>
 			</section>

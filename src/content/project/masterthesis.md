@@ -57,26 +57,41 @@ abschneiden miteinander verglichen werden können.
 Für die bessere Planung wurde für jede der Hauptansichten jeweils ein Mockups erstellt.
 Die Designs wurden mit Hilfe der Grafikdesign-Plattform [Canva](https://canva.com/) erstellt.
 
-<div style="text-align:center;display:flex;justify-content:space-between">
+<div class="mockups" style="text-align:center;display:flex;justify-content:space-between">
     <img src="/projects/mockup-1.png" alt="Mockup 1 - Dashboard" width="250">
     <img src="/projects/mockup-2.png" alt="Mockup 2 - Planer" width="250">
     <img src="/projects/mockup-3.png" alt="Mockup 3 - Fortschritt" width="250">
     <img src="/projects/mockup-4.png" alt="Mockup 4 - Bestenliste" width="250">
 </div>
 
+<br />
+
+## Klassendiagramm
+<div class="img-hover-zoom" style="box-shadow: var(--box-shadow--light);margin-inline:auto;border-radius:2%;padding:2%;">
+    <a href="/public/projects/class-diagram.png">
+        <img src="/public/projects/class-diagram.png" alt="Klassendiagramm">
+    </a>
+</div>
+
 <style>
     p {
         text-align: justify;
     }
-@media (max-width: 1100px) {
-    div {
-        flex-wrap: wrap;
-        justify-content: center;
+    .img-hover-zoom img {
+        transition: transform .5s ease;
     }
-}
-@media (max-width: 600px) {
-    img {
-        width: 50%;
+    .img-hover-zoom:hover img {
+        transform: scale(1.02);
     }
+    @media (max-width: 1100px) {
+        div {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    @media (max-width: 600px) {
+        .mockups img {
+            width: 50%;
+        }
 }
 </style>

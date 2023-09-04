@@ -69,7 +69,7 @@ Die Designs wurden mit Hilfe der Grafikdesign-Plattform [Canva](https://canva.co
 ## Klassendiagramm
 <div class="img-hover-zoom" style="box-shadow: var(--box-shadow--light);margin-inline:auto;border-radius:2%;padding:2%;">
     <a href="/projects/class-diagram.png">
-        <img src="/public/projects/class-diagram.png" alt="Klassendiagramm">
+        <img src="/projects/class-diagram.png" alt="Klassendiagramm">
     </a>
 </div>
 

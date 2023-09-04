@@ -44,6 +44,7 @@ abschneiden miteinander verglichen werden können.
 <br />
 
 ### Features
+
 - Kalenderübersicht
 - Wochenplaner
 - Fortschritt
@@ -51,8 +52,8 @@ abschneiden miteinander verglichen werden können.
 - Profil
 - Authentifizierung mit Email und Passwort
 
-
 ### Mockups
+
 Für die bessere Planung wurde für jede der Hauptansichten jeweils ein Mockups erstellt.
 Die Designs wurden mit Hilfe der Grafikdesign-Plattform [Canva](https://canva.com/) erstellt.
 
@@ -67,4 +68,15 @@ Die Designs wurden mit Hilfe der Grafikdesign-Plattform [Canva](https://canva.co
     p {
         text-align: justify;
     }
+@media (max-width: 1100px) {
+    div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+    img {
+        width: 50%;
+    }
+}
 </style>

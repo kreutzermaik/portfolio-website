@@ -7,7 +7,7 @@ heroImage: '/bachelorthesis.png'
 ## Einführung
 
 Die Informationstechnologie ist längst ein fester Bestandteil unseres Lebens sowie
-auch unserer Umwelt. Durch die ständige Weiterentwicklung von Produkten der Informationsund Kommunikationstechnik (IKT) sowie allgemein durch die Digitalisierung, werden die CO2-
+auch unserer Umwelt. Durch die ständige Weiterentwicklung von Produkten der Informations- und Kommunikationstechnik (IKT) sowie allgemein durch die Digitalisierung, werden die CO2-
 Emissionen durch den damit einhergehenden Energieverbrauch beeinflusst. Auf digitaler Ebene ist es
 demnach relevant, Software auf ihren Energie- und Ressourcenverbrauch zu untersuchen. Ziel dieser
 Publikation ist die Präsentation eines Konzepts zur automatisierten Messung der Ressourceneffizienz

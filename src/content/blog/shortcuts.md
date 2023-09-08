@@ -2,7 +2,7 @@
 title: 'Shortcuts - IntelliJ und Eclipse'
 description: 'Hier findest du eine Übersicht über die wichtigsten Shortcuts für IntelliJ und Eclipse'
 pubDate: 'Jul 02 2023'
-heroImage: '/shortcuts.png'
+heroImage: '/assets/shortcuts.png'
 ---
 
 Auf dieser Blogseite werden Shortcuts für die beiden

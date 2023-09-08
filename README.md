@@ -33,7 +33,7 @@
 ## 📈 Performance Score
 Mit dem Tool Lighthouse von Google wurde die Performance der Webseite gemessen:
 
-<img src="./public/lighthouse-score-portolio.png" alt="Lighthouse Score" />
+<img src="public/assets/lighthouse-score-portolio.png" alt="Lighthouse Score" />
 
 ## 📝 License
 [MIT](https://choosealicense.com/licenses/mit/)

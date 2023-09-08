@@ -1,7 +1,7 @@
 ---
 title: 'Stuckateurbetrieb Kreutzer GmbH'
 description: 'Corporate Webseite für den Stuckateurbetrieb Kreutzer GmbH, entwickelt mit dem Astro Webframework'
-heroImage: '/stuckateur-kreutzer.png'
+heroImage: '/assets/stuckateur-kreutzer.png'
 ---
 
 🌐 Webseite: [https://stuckateur-kreutzer.netlify.app/](https://stuckateur-kreutzer.netlify.app/) <br />
@@ -42,7 +42,7 @@ heroImage: '/stuckateur-kreutzer.png'
 
 ## 📈 Performance Score
 Mit dem Tool Lighthouse von Google wurde die Performance der Webseite gemessen: 
-<img src="/lighthouse-score.png" alt="Lighthouse Score" style="margin-top: 20px;">
+<img src="/assets/lighthouse-score.png" alt="Lighthouse Score" style="margin-top: 20px;">
 
 <br />
 

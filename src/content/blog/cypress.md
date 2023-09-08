@@ -2,7 +2,7 @@
 title: 'Cypress'
 description: 'Eine Einführung in Cypress'
 pubDate: 'Jun 22 2023'
-heroImage: '/cypress.png'
+heroImage: '/assets/cypress.png'
 ---
 
 ## Einleitung

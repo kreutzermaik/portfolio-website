@@ -2,7 +2,7 @@
 title: 'Maven Archetypes'
 description: 'Tutorial für die Erstellung und Verwendung von Archetypes in Maven'
 pubDate: 'Jul 10 2023'
-heroImage: '/maven-archetypes.png'
+heroImage: '/assets/maven-archetypes.png'
 ---
 
 ## Allgemein

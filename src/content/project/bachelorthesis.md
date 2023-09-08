@@ -56,7 +56,7 @@ Mittelwert der Datenverteilung wird durch eine rote horizontale Linie dargestell
 beispielhafte Grafik zur Visualisierung der CPU-Inanspruchnahme zeigt folgende Abbildung.
 
 <div style="box-shadow: var(--box-shadow--light);margin-inline:auto;text-align:center;border-radius:2%">
-    <img src="/public/assets/projects/CPU.png" alt="Beispielhafte Visualisierung der CPU-Inanspruchnahme">
+    <img src="/assets/projects/CPU.png" alt="Beispielhafte Visualisierung der CPU-Inanspruchnahme">
     <p style="padding-bottom:10px;margin-top:-20px;font-size: 75%;text-align:center;">Abb.: Beispielhafte Visualisierung der CPU-Inanspruchnahme</p>
 </div>
 
@@ -64,7 +64,7 @@ Die verschiedenen Komponenten, welche für das Messverfahren benötigt werden, w
 Die folgende Abbildung zeigt den allgemeinen Ablauf im Gesamten, um einen besseren Überblick über den Zusammenhang der Komponenten zu bekommen.
 
 <div style="box-shadow: var(--box-shadow--light);margin-inline:auto;border-radius:2%">
-    <img src="/public/assets/projects/Automated_CI_Ablauf.png" alt="Allgemeiner Ablauf des Messkonzepts">
+    <img src="/assets/projects/Automated_CI_Ablauf.png" alt="Allgemeiner Ablauf des Messkonzepts">
     <p style="padding-bottom:10px;margin-top:-20px;font-size: 75%;text-align:center;">Abb.: Allgemeiner Ablauf des Messkonzepts</p>
 </div>
 

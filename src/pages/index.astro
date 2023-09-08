@@ -10,6 +10,7 @@ import Projects from "../components/Projects.astro";
 <html lang="de">
 <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 <Header title={SITE_TITLE}/>
@@ -19,19 +20,40 @@ import Projects from "../components/Projects.astro";
         Herzlich Willkommen auf meiner persönlichen Webseite. Sie finden hier eine Übersicht über aktuelle Projekte.
     </p>
 
-    <Projects />
+    <Projects/>
 
 </main>
 <Footer/>
+
+<script>
+
+    declare global {
+        interface Window {
+            netlifyIdentity: any;
+        }
+    }
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
+
 </body>
 <style>
     main {
         width: 1280px;
     }
+
     main h1, p {
         text-align: center;
     }
-    @media(max-width: 500px) {
+
+    @media (max-width: 500px) {
         #project-icon {
             display: none;
         }
